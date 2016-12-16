@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	"github.com/hasKeef/raft"
 	"github.com/hashicorp/go-msgpack/codec"
-	"github.com/hashicorp/raft"
 )
 
 // Decode reverses the encode operation on a byte slice input
